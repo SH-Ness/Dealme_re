@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" id="smile-sad" width="117" height="117" viewBox="0 0 117 117">
+    <defs>
+        <style>
+            .cls-1{fill:#9c93ce}
+        </style>
+    </defs>
+    <path id="패스_1219" d="M13.888 20.776A5.888 5.888 0 1 0 8 14.888a5.888 5.888 0 0 0 5.888 5.888z" class="cls-1" transform="translate(27.075 31.921)"/>
+    <path id="패스_1220" d="M43.327 36.552a11.776 11.776 0 0 0-23.552 0H8a23.552 23.552 0 1 1 47.1 0z" class="cls-1" transform="translate(26.948 51.246)"/>
+    <path id="패스_1221" d="M25.776 14.888A5.888 5.888 0 1 1 19.888 9a5.888 5.888 0 0 1 5.888 5.888z" class="cls-1" transform="translate(56.149 31.921)"/>
+    <path id="패스_1222" fill="#9c93ce" fill-rule="evenodd" d="M119 60.5A58.5 58.5 0 1 1 60.5 2 58.5 58.5 0 0 1 119 60.5zm-11.7 0a46.8 46.8 0 1 1-46.8-46.8 46.8 46.8 0 0 1 46.8 46.8z" transform="translate(-2 -2)"/>
+</svg>

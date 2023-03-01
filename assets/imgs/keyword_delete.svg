@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="10.422" height="10.422" viewBox="0 0 10.422 10.422">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#fff;stroke-linecap:round;stroke-width:1.5px}
+        </style>
+    </defs>
+    <g id="그룹_12292" transform="translate(-102.504 -508.123)">
+        <circle id="타원_407" cx="5.211" cy="5.211" r="5.211" fill="#253f50" transform="rotate(90 -197.599 310.524)"/>
+        <path id="선_2430" d="M3.126 0L0 3.126" class="cls-2" transform="rotate(90 -201.112 310.389)"/>
+        <path id="선_2429" d="M0 0L3.126 3.126" class="cls-2" transform="rotate(90 -201.247 310.524)"/>
+    </g>
+</svg>

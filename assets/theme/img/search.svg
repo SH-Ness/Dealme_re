@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="20.414" height="20.414" viewBox="0 0 20.414 20.414">
+    <defs>
+        <style>
+            .cls-2{fill:none;stroke:#000;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="search" opacity="0.4" transform="translate(1 1)">
+        <circle id="타원_1" cx="8" cy="8" r="8" class="cls-2"/>
+        <path id="패스_2" d="M21 21l-4.35-4.35" class="cls-2" transform="translate(-3 -3)"/>
+    </g>
+</svg>

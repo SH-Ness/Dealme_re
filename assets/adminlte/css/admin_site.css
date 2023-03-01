@@ -1,0 +1,29 @@
+@media (min-width: 768px) {
+  /*.user-panel>.image>img {
+    display: none !important;
+    -webkit-transform: translateZ(0);
+  }*/
+
+}
+
+.table_editor{
+  width:100%;
+}
+
+
+.table_editor_left{
+  width:100px;
+  padding:2px !important;
+}
+.table_editor_right{
+  width:auto;
+  padding:2px !important;
+}
+
+.table_editor_left > label{
+  padding-top: 6px;
+  padding-left: 6px;
+  padding-right: 6px;
+  text-align: right;
+  width:100%;
+}

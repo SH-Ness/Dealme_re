@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="322.445" height="218" viewBox="0 0 322.445 218">
+    <defs>
+        <linearGradient id="linear-gradient" x1=".5" x2=".5" y1="1" gradientUnits="objectBoundingBox">
+            <stop offset="0" stop-color="#bb6af7"/>
+            <stop offset="1" stop-color="#bbd2f7"/>
+        </linearGradient>
+        <style>
+            .cls-7{stroke:#a369f4}.cls-6{stroke-miterlimit:10;stroke:#ddc914;fill:none}.cls-7{fill:none;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="그룹_12317" transform="translate(-17 -299)">
+        <g id="사각형_1876" fill="#fff" stroke="#9c93ce" transform="translate(17 299)">
+            <rect width="322" height="218" stroke="none" rx="15"/>
+            <rect width="321" height="217" x=".5" y=".5" fill="none" rx="14.5"/>
+        </g>
+        <g id="그룹_12036" opacity="0.284" transform="rotate(90 10.767 328.179)">
+            <path id="패스_7311" fill="url(#linear-gradient)" stroke="#a369f4" stroke-miterlimit="10" d="M67.607 103.374a20.976 20.976 0 0 0-20.6 24.912 1 1 0 0 1-.983 1.178H16.192A16.24 16.24 0 0 1 0 113.273V16.192A16.24 16.24 0 0 1 16.192 0h39.194a16.24 16.24 0 0 1 16.192 16.192v86.135a1.054 1.054 0 0 1-1.052 1.051z" transform="translate(0 26.823)"/>
+            <g id="그룹_12033" transform="translate(26.952)">
+                <rect id="사각형_1795" width="17.655" height="26.701" fill="#d3ad88" stroke="#a369f4" stroke-miterlimit="10" rx="1"/>
+            </g>
+            <path id="사각형_1796" fill="#fff115" stroke="#ddc914" stroke-miterlimit="10" d="M0 0H13.654V16.516H0z" transform="translate(15.553 40.63)"/>
+            <path id="선_153" d="M0 16.092L0 0" class="cls-6" transform="translate(19.088 41.086)"/>
+            <path id="선_154" d="M0 16.092L0 0" class="cls-6" transform="translate(25.671 41.086)"/>
+            <rect id="사각형_1797" width="6.583" height="5.851" class="cls-6" rx="2.926" transform="translate(19.088 45.719)"/>
+            <path id="선_155" d="M0 58.271L0 0" class="cls-7" transform="translate(27.012 65.102)"/>
+            <path id="선_156" d="M0 58.271L0 0" class="cls-7" transform="translate(44.81 65.102)"/>
+        </g>
+    </g>
+</svg>

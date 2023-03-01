@@ -1,0 +1,127 @@
+/*
+**********************
+** dealightme.net   **
+** common.css       **
+**********************
+*/
+
+/*
+  default width = 500px;
+*/
+
+*{
+  font-family: Pretendard;
+}
+body{
+  position: relative;
+  animation-fill-mode:forwards;
+  animation: fadeIn 0.5s;
+}
+body, html{
+  background: #fff !important;
+}
+main, header, .main-container{
+  max-width: 500px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  border-radius: 0 !important;
+}
+a {
+  transition-property: background-color;
+  transition-duration: 1s; /* 1000밀리초와 같다 */
+  transition-timing-function: linear; /* 등속도 */
+  transition-delay: .8s; /* 500밀리초 */
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* @keyframes change {
+  from {
+    transform: translateY(100%);
+    visibility: visible;
+  }
+
+  to {
+    transform: translateY(0%);
+  }
+} */
+.top_menu{
+  max-width: 500px !important;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+}
+
+/* snackbar- 로그인요청 메시지 */
+#snackbar {
+  visibility: hidden;
+  background-color: #333333; color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  position: fixed; left: 0; right:0; bottom: 30px;
+  width: 100%; max-width: 300px; min-width: 250px;
+  display: flex; justify-content: space-between;
+  margin-left: -125px; margin: auto;
+  padding: 10px;
+  z-index: 9999;
+}
+#snackbar.show {visibility: visible; -webkit-animation: fadein 0.5s, fadeout 1s 2.5s; animation: fadein 0.5s, fadeout 1s 2.5s;}
+#snackbar.show a {color: #fff !important;}
+
+/* Animations to fade the snackbar in and out */
+@-webkit-keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+/* @-webkit-keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+}
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
+} */
+
+/* 별점 평가 */
+#review_line{width:43%;}
+.review_num{text-align:center;}
+.review_num .grade_group{display: flex; width: 27px; flex-direction: column;}
+.review_num .grade_group span{margin-right:0;}
+.review_num .grade_group label{color:#806eff;display:inline-block;}
+
+/* 하단 fixed button 공통 media style */
+@media (max-height: 570px){
+  .signup-btn{
+    position: inherit !important;
+    margin-top: 20px !important;
+    width: 100%;
+    padding: 0 !important;
+  }
+  .check-button{
+    position: inherit !important;
+    margin-top: 20px !important;
+    width: 100%;
+    padding: 0 !important;
+    bottom: 0px !important;
+  }
+  .remail_box{
+    position: inherit !important;
+    margin-top: 20px !important;
+  }
+}
+
+/* profile image */
+.pf-img{width:50px;height:50px;border-radius:10px; object-fit:cover !important; border:1px solid #eee;}

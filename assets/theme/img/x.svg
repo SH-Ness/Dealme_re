@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="14.828" height="14.828" viewBox="0 0 14.828 14.828">
+    <defs>
+        <style>
+            .cls-1{fill:none;stroke:#505050;stroke-linecap:round;stroke-linejoin:round;stroke-width:2px}
+        </style>
+    </defs>
+    <g id="x" transform="translate(1.414 1.414)">
+        <path id="패스_56" d="M18 6L6 18" class="cls-1" transform="translate(-6 -6)"/>
+        <path id="패스_57" d="M6 6l12 12" class="cls-1" transform="translate(-6 -6)"/>
+    </g>
+</svg>

@@ -1,0 +1,281 @@
+/*
+Copyright (c) 2003-2016, CKSource - Frederico Knabben. All rights reserved.
+For licensing, see LICENSE.md or http://ckeditor.com/license
+*/
+/* <link rel="stylesheet" href=> */
+@import url("https://dealightme.net/assets/bootstrap/css/bootstrap.min.css");
+@import url("https://dealightme.net/assets/css/site.css");
+
+body
+{
+	/* Font */
+	font-family: sans-serif, Arial, Verdana, "Trebuchet MS";
+	font-size: 12px;
+
+	/* Text color */
+	color: #333;
+
+	/* Remove the background color to make it transparent */
+	background-color: #fff;
+
+	/* margin: 20px; */
+}
+
+.cke_editable
+{
+	font-size: 13px;
+	line-height: 1.6;
+}
+
+blockquote
+{
+	font-style: italic;
+	font-family: Georgia, Times, "Times New Roman", serif;
+	padding: 2px 0;
+	border-style: solid;
+	border-color: #ccc;
+	border-width: 0;
+}
+
+.cke_contents_ltr blockquote
+{
+	padding-left: 20px;
+	padding-right: 8px;
+	border-left-width: 5px;
+}
+
+.cke_contents_rtl blockquote
+{
+	padding-left: 8px;
+	padding-right: 20px;
+	border-right-width: 5px;
+}
+
+a
+{
+	color: #0782C1;
+}
+
+ol,ul,dl
+{
+	/* IE7: reset rtl list margin. (#7334) */
+	*margin-right: 0px;
+	/* preserved spaces for list items with text direction other than the list. (#6249,#8049)*/
+	padding: 0 40px;
+}
+
+h1,h2,h3,h4,h5,h6
+{
+	font-weight: normal;
+	line-height: 1.2;
+}
+
+hr
+{
+	border: 0px;
+	border-top: 1px solid #ccc;
+}
+
+img.right
+{
+	border: 1px solid #ccc;
+	float: right;
+	margin-left: 15px;
+	padding: 5px;
+}
+
+img.left
+{
+	border: 1px solid #ccc;
+	float: left;
+	margin-right: 15px;
+	padding: 5px;
+}
+
+pre
+{
+	white-space: pre-wrap; /* CSS 2.1 */
+	word-wrap: break-word; /* IE7 */
+	-moz-tab-size: 4;
+	tab-size: 4;
+}
+
+.marker
+{
+	background-color: Yellow;
+}
+
+span[lang]
+{
+	font-style: italic;
+}
+
+figure
+{
+	text-align: center;
+	border: solid 1px #ccc;
+	border-radius: 2px;
+	background: rgba(0,0,0,0.05);
+	padding: 10px;
+	margin: 10px 20px;
+	display: inline-block;
+}
+
+figure > figcaption
+{
+	text-align: center;
+	display: block; /* For IE8 */
+}
+
+a > img {
+	padding: 1px;
+	margin: 1px;
+	border: none;
+	outline: 1px solid #0782C1;
+}
+
+/* 관리자 메거진 동적 등록 */
+p{
+	text-align : center;
+}
+p img, .ticket-box{
+	margin: 0 auto;
+	max-width:600px;
+}
+  .card{
+  width: 95%;
+	max-width:600px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+	border-radius: 15px;
+	border: 0px;
+	position: relative;
+	background-color: #fff;
+  background-clip: border-box;
+}
+  .card:nth-of-type(1)~.card{
+  margin-top: 10px;
+}
+  .card-left{
+  width: 30%;
+}
+  .card-right{
+  width: 70%;
+  padding: 5px;
+}
+ .grade-box{
+  padding-right: 20px;
+  background-color: #000;
+  width: 53px;
+  height: 23px;
+  opacity: 0.61;
+  border-radius: 50px;
+  color: #fff;
+  font-size: 9px;
+  float: right;
+  padding: 0px;
+}
+ .grade-box p{
+  text-align: center;
+  line-height: 23px;
+}
+ .grade-box span{
+  color: #ffcc00;
+}
+  .card-body{
+  padding: 20px 0 0 0;
+}
+  .card-body ul{
+  list-style:  none;
+  margin-left: 20px;
+  padding: 0 !important;
+}
+  .card-body .title{
+  font-weight: bold;
+}
+  .card-body li{
+  font-size: 12px;
+  display: flex;
+}
+  .card-body li img{
+  padding-right: 5px;
+}
+  .card-body li:nth-child(2){
+  margin-top: 5px;
+}
+  .view-more{
+  float: right;
+}
+  .view-more a{
+  font-size: 10px;
+  color: #66629b;
+  padding-right: 5px;
+}
+
+.ticket-box{
+  display: flex;
+  align-items: center;
+  /* border-bottom: 1px dashed #dde3e9; */
+  padding: 20px;
+  /* background:url(<?php echo SITE_ASSET_URL;?>/imgs/ticket-bgi.png); */
+  background:url('/assets/imgs/ticket-bgi.png');
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+.ticket-box::before{
+  display: block;
+  content: '';
+  border-bottom: 1px dashed #dde3e9;
+  width: 85%;
+  position: absolute;
+  margin: 0 auto;
+  bottom: 0;
+  left: 0; right: 0;
+}
+.ticket-box ul{
+  list-style: none;
+  margin: 0;
+  padding-left: 15px;
+}
+.ticket-box li:nth-of-type(1)~li{
+  padding-top: 5px;
+}
+.ticket-box .discount-price{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.ticket-box .discount-price p{
+  width: 48px;
+  height: 20px;
+  background-color: #d91448;
+  border-radius: 3px;
+  color: #fff;
+  text-align: center;
+  font-size: 10px;
+  margin: 0;
+}
+.ticket-box .title{
+  font-size: 12px;
+  font-weight: bold;
+}
+.ticket-box li:nth-of-type(3){
+  display: flex;
+}
+.ticket-box li .price{
+  margin-right: 20px;
+  font-size: 16px;
+  font-weight: bold;
+  color: #66629b;
+  margin-bottom: 0;
+}
+.ticket-box li .normal{
+  font-size: 12px;
+  color: #c5c5c5;
+  text-decoration: line-through;
+  margin-bottom: 0;
+}

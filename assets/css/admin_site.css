@@ -1,0 +1,28 @@
+@charset "utf-8";
+@import url('https://use.fontawesome.com/releases/v5.0.6/css/all.css');
+
+/* table.dataTable thead .sorting:after{
+  background-image: url(../imgs/online1.png);
+}
+
+table.dataTable thead .sorting_asc:after{
+  background-image: url(../imgs/online2.png);
+}
+
+table.dataTable thead .sorting_desc:after{
+  background-image: url(../imgs/online3.png);
+} */
+
+table.dataTable thead .sorting:after {
+  content: "\f0dc";
+  font-family: "Font Awesome 5 Free";
+}
+
+table.dataTable thead .sorting_asc:after {
+  content: "\f0dd";
+  font-family: "Font Awesome 5 Free";
+}
+table.dataTable thead .sorting_desc:after {
+  content: "\f0de";
+  font-family: "Font Awesome 5 Free";
+}
